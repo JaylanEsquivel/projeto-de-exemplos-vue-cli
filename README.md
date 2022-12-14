@@ -6,3 +6,4 @@ Projeto simples para exemplos e exercícios práticos com Vue 3 / CLI
 - Lifecycle hooks
 - Hierárquia de Components
 - Diretivas
+- Atributos
