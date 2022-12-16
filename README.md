@@ -10,3 +10,6 @@ Projeto simples para exemplos e exercícios práticos com Vue 3 / CLI
 - Methods
 - CSS Global & CSS Scoped
 - Eventos
+- Multiplos Eventos
+- Reutilizando Components
+- Props

@@ -44,7 +44,7 @@ export default {
 
     h3{ text-align: center;}
     div{ 
-        background-color: #ccc;
+        background-color: #000;
         padding: 10px;
         display: flex;
         justify-content: center;
