@@ -1,6 +1,7 @@
 <template>
     <hr>
     <h2>Está é uma descrição da pessoa: {{name}}</h2>
+    <p>Paragrafo main</p>
    <Info />
 </template>
 <script>

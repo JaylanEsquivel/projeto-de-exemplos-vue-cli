@@ -21,3 +21,11 @@
     }
   } 
 </script>
+
+<style>
+  body{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+</style>

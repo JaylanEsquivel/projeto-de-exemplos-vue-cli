@@ -7,3 +7,5 @@ Projeto simples para exemplos e exercícios práticos com Vue 3 / CLI
 - Hierárquia de Components
 - Diretivas
 - Atributos
+- Methods
+- CSS Global & CSS Scoped
