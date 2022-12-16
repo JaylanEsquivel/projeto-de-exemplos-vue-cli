@@ -1,8 +1,6 @@
 <template>
-    <h1>Header</h1>
     <PrimeiroComponente />
     <hr/>
-    <p>Footer</p>
     <LifeCycle/>
     <PessoaVue/>
 </template>

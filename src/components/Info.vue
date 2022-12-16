@@ -11,7 +11,13 @@
             <li v-for="tec in tecnologias">{{tec}}</li>
         </ul>
         <p>Para acessar meu portifolio <a v-bind:href="meu_link" target="_blank">Click aqui</a></p>
-    </div>
+        <ul>
+            <li v-for="cont in contatos" :key="cont.id">
+                {{cont.titulo}} : {{cont.value}}
+            </li>
+        </ul>
+  
+  </div>
 </template>
 <script>
 import Picture from './Picture.vue';
@@ -28,6 +34,10 @@ export default {
             mostra_email: false,
             textbutton: "Mostrar Email",
             tecnologias: ['PHP', 'C#', 'HTML', 'CSS', 'JS', 'Java'],
+            contatos:[
+                {id: 1, titulo: 'Celular', value: '75 98195-0449'},
+                {id: 2, titulo: 'Email', value: 'jaylan1997@hotmail.com'}
+            ],
             meu_link: "https://about.me/jaylanesquivel",
             email: "jaylan1997@hotmail.com"
         }
@@ -48,7 +58,7 @@ export default {
 
 <style scoped>
     p{
-        background-color: #f1e204;
+        background-color: #8a8a89;
         padding: 10px;
     }
 

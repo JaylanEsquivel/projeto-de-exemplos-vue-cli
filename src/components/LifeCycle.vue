@@ -1,5 +1,5 @@
 <template>
-    <h2>Salmos 23: {{ nome }}</h2>
+    <h2>LifeCycle: {{ nome }}</h2>
 </template>
 
 <script>
@@ -18,7 +18,7 @@ export default {
     },
     mounted() {
         setTimeout(() => { 
-            this.nome = 'ana'
+            this.nome = 'Ana'
         }, 2000)
     },
     methods: {

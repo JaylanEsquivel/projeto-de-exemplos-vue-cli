@@ -1,5 +1,5 @@
 <template>
-    <h3>jaylan chegou ate aqui</h3>
+    <h3>Pj Simples com Vue 3</h3>
 </template>
 
 <script>
