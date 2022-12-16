@@ -9,3 +9,4 @@ Projeto simples para exemplos e exercícios práticos com Vue 3 / CLI
 - Atributos
 - Methods
 - CSS Global & CSS Scoped
+- Eventos

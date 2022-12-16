@@ -16,16 +16,18 @@
                 {{cont.titulo}} : {{cont.value}}
             </li>
         </ul>
-  
+        <Form></Form>
   </div>
 </template>
 <script>
 import Picture from './Picture.vue';
+import Form from './Form.vue';
 
 export default {
     name: 'Info',
     components: {
-        Picture
+        Picture,
+        Form
     },
     data() { 
         return {
