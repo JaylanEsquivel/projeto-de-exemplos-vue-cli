@@ -13,3 +13,4 @@ Projeto simples para exemplos e exercícios práticos com Vue 3 / CLI
 - Multiplos Eventos
 - Reutilizando Components
 - Props
+- Emits
